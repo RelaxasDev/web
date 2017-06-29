@@ -1,0 +1,51 @@
+html {
+  margin: 0;
+  padding: 0;
+  background: url("../Picture/image.jpg") no-repeat center fixed;
+  position: relative;
+  background-size: cover;
+}
+
+* {
+  position: relative;
+  background: no-repeat center fixed;
+}
+
+.titre {
+  position: relative;
+  background-color: #acacac;
+  height: 75px;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.corps {
+  top: 50px;
+  position: relative;
+  border-radius: 10px;
+  margin: auto;
+  height: 200%;
+  background-color: #3d3d3d;
+  width: 50%;
+  font-family: Verdana;
+  font-size: 30px;
+  color: white;
+}
+
+.liens {
+  background-color: #323131;
+}
+
+a {
+  display: block;
+  color: #0087e8;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  text-align: center;
+  font-weight: Bold;
+}
